@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=0" />
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>esm el profile</title>
+		<style>
+			@import url('https://fonts.google.com/specimen/Dela+Gothic+One');
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+				list-style: none;
+				font-family: 'Dela Gothic One', sans-serif;
+			}
+			body {
+				background-image: url('perf.jpg');
+			}
+			.leftcont {
+				margin-top: 40%;
+			}
+
+			.text {
+				margin-top: 10%;
+			}
+			.wrapper {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				width: 85%;
+				height: 80%;
+				display: flex;
+				box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+			}
+
+			.wrapper .left {
+				width: 35%;
+				background: linear-gradient(to right, #3bda0a, #83e476);
+				padding: 30px 25px;
+				border-top-left-radius: 5px;
+				border-bottom-left-radius: 5px;
+				text-align: center;
+				color: #fff;
+			}
+
+			.wrapper .left img {
+				border-radius: 5px;
+				margin-bottom: 10px;
+			}
+
+			.wrapper .left h4 {
+				margin-bottom: 10px;
+			}
+
+			.wrapper .left p {
+				font-size: 12px;
+			}
+
+			.wrapper .right {
+				width: 65%;
+				background: #fff;
+				padding: 30px 25px;
+				border-top-right-radius: 5px;
+				border-bottom-right-radius: 5px;
+			}
+
+			.wrapper .right .info,
+			.wrapper .right .projects {
+				margin-bottom: 25px;
+			}
+
+			.wrapper .right .info h3,
+			.wrapper .right .projects h3 {
+				margin-bottom: 15px;
+				padding-bottom: 5px;
+				border-bottom: 1px solid #e0e0e0;
+				color: #353c4e;
+				text-transform: uppercase;
+				letter-spacing: 5px;
+			}
+
+			.wrapper .right .info_data,
+			.wrapper .right .projects_data {
+				display: flex;
+				justify-content: space-between;
+			}
+
+			.wrapper .right .info_data .data,
+			.wrapper .right .projects_data .data {
+				width: 45%;
+			}
+
+			.wrapper .right .info_data .data h4,
+			.wrapper .right .projects_data .data h4 {
+				color: #353c4e;
+				margin-bottom: 5px;
+			}
+
+			.wrapper .right .info_data .data p,
+			.wrapper .right .projects_data .data p {
+				font-size: 13px;
+				margin-bottom: 10px;
+				color: #919aa3;
+			}
+
+			.wrapper .social_media ul {
+				display: flex;
+			}
+
+			.wrapper .social_media ul li {
+				width: 45px;
+				height: 45px;
+				background: linear-gradient(to right, #01a9ac, #01dbdf);
+				margin-right: 10px;
+				border-radius: 5px;
+				text-align: center;
+				line-height: 45px;
+			}
+
+			.wrapper .social_media ul li a {
+				color: #fff;
+				display: block;
+				font-size: 18px;
+			}
+
+			.button {
+				background-color: #62b812;
+				border: 1px solid #0088cc;
+				border-radius: 1px;
+				color: #ffffff;
+				display: inline-block;
+				font-size: 0.9375em;
+				font-weight: normal;
+				line-height: 1.2;
+				margin-right: 0.3125em;
+				margin-bottom: 0.3125em;
+				padding: 0.5em 0.6875em;
+				font-size: small;
+				width: 40%;
+				height: 30%;
+				border-radius: 5px;
+				margin-left: 0%;
+			}
+
+			.button:active,
+			.button:focus,
+			.button:hover {
+				background-color: #005580;
+				border-color: #005580;
+				color: #ffffff;
+				text-decoration: none;
+			}
+
+			.button:active {
+				box-shadow: inset 0 0.15625em 0.25em rgba(0, 0, 0, 0.15), 0 1px 0.15625em rgba(0, 0, 0, 0.05);
+			}
+
+			.input {
+				width: 70%;
+				border: 2px solid rgb(78, 212, 130);
+				border-radius: 4px;
+
+				outline: none;
+				padding: 3px;
+
+				box-sizing: border-box;
+			}
+
+			.input:focus {
+				border-color: dodgerBlue;
+				box-shadow: 0 0 8px 0 dodgerBlue;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="left">
+				<div class="leftcont">
+					<img src="clp.png" alt="user" width="100" />
+					<h4>Welcome back <br> <strong>foulen ben flen</strong></h4>
+				</div>
+			</div>
+			<div class="right">
+				<div class="info text">
+					<h3>Informations</h3>
+					<div class="info_data">
+						<div class="data">
+							<h4>Email</h4>
+							<p>xxx@gmail.com</p>
+						</div>
+						<div class="data">
+							<h4>Phone</h4>
+							<p>5555555</p>
+						</div>
+						<br />
+					</div>
+					
+				</div>
+					<div class="info_data">
+						<div class="data">
+							<h4>Username</h4>
+							<p>fouled123</p>
+						</div>
+						<div class="data">
+							<h4>score</h4>
+							<p>536</p>
+						</div>
+						<br />
+					</div>
+					
+					<div class="projects text">
+						<h3>Ajout des points</h3>
+						<div class="projects_data">
+							<div class="data">
+								<h4>Code</h4>
+								<p><input type="text" class="input" placeholder="code" required></p>
+								<input type="submit" value="Add" class="button">
+							</div>
+							<div class="data">
+								<h4>indique le prochain prix</h4>
+								<p>464</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</body>
+</html>
